@@ -105,7 +105,7 @@ int main()
                     { 2, 3, 3, 3 },
                     { 0, 3, 3, 3 } };
 
-    (findPath(M) == true) ? cout << "Yes" : cout << "No" << endl;
+    (findPath(M) == true) ? cout << "Path Found" : cout << "No Possible Path" << endl;
 
     return 0;
 }
