@@ -29,9 +29,9 @@ int minJumps(int arr[], int n)
 }
 int main()
 {
-    int arr[] = { 1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9 };
+    int arr[] = { 1, 4, 2, 7, 3, 4, 6, 3, 2, 5 };
     int size = sizeof(arr) / sizeof(int);
-    cout << ("Minimum number of jumps to reach end is %d ",
+    cout << ("Minimum number of jumps: %d ",
              minJumps(arr, size));
     return 0;
 }
